@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Flappy Bird Fullscreen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Player selection menu -->
+  <div id="menu">
+    <h2>Choose Your Player</h2>
+    <button onclick="selectPlayer('noah.png')">IShowSpeed</button>
+    <button onclick="selectPlayer('mat.png')">Hello Neighbor</button>
+    <button onclick="selectPlayer('chapa.png')">lebron</button>
+  </div>
+  <audio id="bgMusic" loop>
+    <source src="Steal a Brainrot Rap  (TUNG TUNG TUNG SAHUUUUUR  TA TA TA SAHUUUR ).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+
+  <!-- Game canvas -->
+  <canvas id="game" style="display:none;"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
